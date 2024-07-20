@@ -1,5 +1,4 @@
 import os
 
 #  global
-DEBUG = bool(os.getenv('DEBUG', True))
-
+DEBUG = bool(os.getenv("DEBUG", True))
