@@ -9,3 +9,5 @@ app = FastAPI()
 
 app.include_router(ask.router)
 app.include_router(suggest.router)
+
+print("new")
