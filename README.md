@@ -8,8 +8,8 @@
 4. sudo docker-compose up --build -d
 
 ## MAIN ENDPOINTS
-`/docs` - Fast API swagger
-`/conversation` - Main endpoint to invoke the GPT API
+- `/docs` - Fast API swagger
+- `/conversation` - main endpoint to invoke the GPT API
 
 ## REDIS scheme
 `conversation_id` - Key to get conversation history
