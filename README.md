@@ -7,6 +7,10 @@
 3. fill .env with your credentials like in .env.example
 4. sudo docker-compose up --build -d
 
+## MAIN ENDPOINTS
+`/docs` - Fast API swagger
+`/conversation` - Main endpoint to invoke the GPT API
+
 ## REDIS scheme
 `conversation_id` - Key to get conversation history
 Inside it:
