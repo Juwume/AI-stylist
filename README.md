@@ -11,8 +11,8 @@
 `conversation_id` - Key to get conversation history
 Inside it:
 ```
-    [ # `Usual Open AI scheme`
-        "content": '{ # `But the content is stored as a string`
+    [ # Usual Open AI scheme
+        "content": '{ # But the content is stored as a string
             "role": "system" / "user" / "assistant",
             "content": [
                 {
